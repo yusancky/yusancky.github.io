@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+# 👋 Introduction
 
-You can use the [editor on GitHub](https://github.com/yusancky/yusancky.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+I'm [**@yusancky**](https://github.com/yusancky) , a junior high school student in Guangzhou, Guangdong, China. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# 💼 Repositories
 
-### Markdown
+- The repository [**yusancky/auto_type**](https://github.com/yusancky/auto-type) by me and [**@aoeer39**](https://github.com/aoeer39) provides you codes can write by characters automatically. Now, it has codes in C++ and Python. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# 💬 Contact Details
 
-```markdown
-Syntax highlighted code block
+- E-mail: [`umbrellacky@qq.com`](mailto:umbrellacky@qq.com)
+- WeChat ID: `yusancky`
 
-# Header 1
-## Header 2
-### Header 3
+# 🎥 My Video on Bilibili
+[![](https://bb-embed.herokuapp.com/embed?v=BV1H34y1n7r6)](https://player.bilibili.com/player.html?aid=813676416&bvid=BV1H34y1n7r6&cid=780466878&page=1)
 
-- Bulleted
-- List
+# 💰 Ways to Sponsor
 
-1. Numbered
-2. List
+> **Note**
+> You can leave your information when you pay. 
 
-**Bold** and _Italic_ and `Code` text
+## e-CNY APP
 
-[Link](url) and ![Image](src)
-```
+1. Open "Home" and choose a wallet
+2. Slide the wallet up
+3. Select "Transfer" and then choose "Wallet ID"
+4. Enter `0061900014364944` and then pay as before
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## WeChat Pay
 
-### Jekyll Themes
+1. Open WeChat APP and then open "Me"
+2. Select "Services" and then press the "Money"
+3. Press "Transfer to Bank Card/Mobile No." and then select "Transfer to Mobile Number"
+4. Enter `17727603415` and then pay as before
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yusancky/yusancky.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!--
+Here are some ideas to get you started:
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
