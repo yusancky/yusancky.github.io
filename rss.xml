@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>尤桑记</title>
+        <link>https://yusancky.github.io/</link>
+        <description>尤桑记：雨伞CKY的博客</description>
+        <generator>Hugo 0.104.3 https://gohugo.io/</generator>
+        
+            <language>zh-CN</language>
+        
+        
+            <managingEditor>umbrellacky@qq.com (雨伞CKY)</managingEditor>
+        
+        
+            <webMaster>umbrellacky@qq.com (雨伞CKY)</webMaster>
+        
+        
+            <copyright>[尤桑记](https://yusancky.github.io/)的所有文章著作权均归@雨伞CKY 所有，受[《中华人民共和国著作权法》](http://www.npc.gov.cn/npc/c30834/202011/848e73f58d4e4c5b82f69d25d46048c6.shtml)保护。
+
+除文章特殊说明外，未经@雨伞CKY 许可擅自非法转载需要承担相应责任。</copyright>
+        
+        <lastBuildDate>Sun, 16 Oct 2022 21:27:16 &#43;0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://yusancky.github.io/rss.xml" />
+        
+        
+            <item>
+                <title>Hello, World!</title>
+                <link>https://yusancky.github.io/posts/hello-world/</link>
+                <guid isPermaLink="true">https://yusancky.github.io/posts/hello-world/</guid>
+                <pubDate>Sun, 16 Oct 2022 15:20:00 &#43;0800</pubDate>
+                
+                    <author>umbrellacky@qq.com (雨伞CKY)</author>
+                
+                <copyright>[尤桑记](https://yusancky.github.io/)的所有文章著作权均归@雨伞CKY 所有，受[《中华人民共和国著作权法》](http://www.npc.gov.cn/npc/c30834/202011/848e73f58d4e4c5b82f69d25d46048c6.shtml)保护。
+
+除文章特殊说明外，未经@雨伞CKY 许可擅自非法转载需要承担相应责任。</copyright>
+                <description>2022年10月16日，尤桑记开始和世界招手。</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://yusancky.github.io/tags/%E5%BC%80%E5%A7%8B/">开始</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://yusancky.github.io/tags/%E5%B0%A4%E6%A1%91%E8%AE%B0/">尤桑记</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
