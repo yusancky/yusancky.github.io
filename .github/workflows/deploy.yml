@@ -1,0 +1,39 @@
+---
+name: build
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Checkout source
+      uses: actions/checkout@v2
+      with:
+        submodules: true
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14.16.0'
+    - name: Install dependencies
+      run: npm install
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.104.2'
+        extended: true
+    - name: Build
+      run: npm run build
+    - name: Deploy
+      env:
+        TZ: Asia/Shanghai
+        DEPLOY_REPO: yusancky/yusancky.github.io
+        DEPLOY_BRANCH: main
+        PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+      run: |
+        cd ./public && git init
+        git config user.name "yusancky"
+        git config user.email "umbrellacky@qq.com"
+        git add .
+        git commit -m "Automated Deployment @ $(date '+%Y-%m-%d %H:%M:%S') ${TZ}"
+        git push --force --quiet "https://$PERSONAL_TOKEN@github.com/$DEPLOY_REPO" master:$DEPLOY_BRANCH
