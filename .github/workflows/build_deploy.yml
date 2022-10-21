@@ -25,7 +25,7 @@ jobs:
       - name: Build Site
         run: hugo --minify
       - name: Use FreeWebAnalytics
-        run: sed -e 3a\'<script data-host="https://freewebanalytics.net/public" data-dnt="false" src="https://freewebanalytics.net/js/script.js" id="ZwSg9rf6GA" async defer></script>' ./public/*.html
+        run: sed -e 3a\'\<script data-host="https://freewebanalytics.net/public" data-dnt="false" src="https://freewebanalytics.net/js/script.js" id="ZwSg9rf6GA" async defer\>\</script\>' ./public/*.html
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3.7.3
         if: ${{ github.ref == 'refs/heads/main' }}
