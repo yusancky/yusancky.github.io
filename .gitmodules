@@ -1,0 +1,3 @@
+[submodule "MemE"]
+	path = themes/meme
+	url = https://github.com/reuixiy/hugo-theme-meme.git
