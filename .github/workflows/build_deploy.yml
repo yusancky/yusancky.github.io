@@ -47,10 +47,6 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       
-      - name: Use FreeWebAnalytics
-        run: |
-          sed -e 3a\\'\<script data-host="https://freewebanalytics.net/public" data-dnt="false" src="https://freewebanalytics.net/js/script.js" id="ZwSg9rf6GA" async defer\>\</script\>' ./public/*.html
-      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
