@@ -1,0 +1,514 @@
+baseURL = "https://yusancky.github.io/"
+title = "尤桑记"
+languageCode = "zh-CN"
+hasCJKLanguage = true
+copyright = "除特殊说明外，[尤桑记](https://yusancky.github.io/)的所有文章著作权归@雨伞CKY 所有，受[《中华人民共和国著作权法》](http://www.npc.gov.cn/npc/c30834/202011/848e73f58d4e4c5b82f69d25d46048c6.shtml)保护，未经@雨伞CKY 许可擅自非法转载需承担相应责任。"
+
+theme = "hugo-theme-meme"
+
+newContentEditor = "Visual Studio Code"
+
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = false
+
+pluralizeListTitles = false
+
+summaryLength = 80
+
+enableEmoji = true
+
+footnoteReturnLinkContents = "↩"
+
+enableGitInfo = true
+
+enableRobotsTXT = true
+
+paginate = 10
+
+disablePathToLower = false
+relativeURLs = false
+uglyURLs = false
+
+[permalinks]
+    categories = "/categories/:slug/"
+    tags = "/tags/:slug/"
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+
+[frontmatter]
+    lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
+
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            definitionList = true
+            footnote = true
+            linkify = true
+            strikethrough = true
+            table = true
+            taskList = true
+            typographer = false
+        [markup.goldmark.parser]
+            attribute = true
+            autoHeadingID = true
+            autoHeadingIDType = "github"
+        [markup.goldmark.renderer]
+            hardWraps = false
+            unsafe = true
+            xHTML = false
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = false
+        lineNos = true
+        lineNumbersInTable = true
+        noClasses = false
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel = 6
+        ordered = true
+
+[minify.tdewolff.html]
+    keepWhitespace = false
+
+[author]
+    name = "雨伞CKY"
+    email = "umbrellacky@qq.com"
+    motto = "天行健，君子以自强不息。"
+    avatar = "https://avatars.githubusercontent.com/u/83524927?v=4"
+
+[related]
+    threshold = 80
+    includeNewer = true
+    toLower = true
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+    [[related.indices]]
+        name = "tags"
+        weight = 95
+    [[related.indices]]
+        name = "date"
+        weight = 10
+        pattern = "2006"
+
+[mediaTypes."application/atom+xml"]
+    suffixes = ["xml"]
+
+[outputFormats.SectionsAtom]
+    mediaType = "application/atom+xml"
+    baseName = "atom"
+
+[outputFormats.SectionsRSS]
+    mediaType = "application/rss+xml"
+    baseName = "rss"
+
+[outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "search"
+
+[outputFormats.Algolia]
+    mediaType = "application/json"
+    baseName = "algolia"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+    page = ["HTML"]
+    home = ["HTML", "SectionsAtom", "SectionsRSS"]
+    section = ["HTML"]
+    taxonomy = ["HTML"]
+    term = ["HTML"]
+
+[services.rss]
+    limit = -1
+
+[menu]
+    [[menu.main]]
+        pageref = "/"
+        name = "首页"
+        weight = 1
+        pre = "internal"
+        post = "home"
+    [[menu.main]]
+        pageref = "/posts/"
+        name = "文章"
+        weight = 2
+        pre = "internal"
+        post = "archive"
+    [[menu.main]]
+        pageref = "/categories/"
+        name = "分类"
+        weight = 3
+        pre = "internal"
+        post = "th"
+    [[menu.main]]
+        pageref = "/tags/"
+        name = "标签"
+        weight = 4
+        pre = "internal"
+        post = "tags"
+    [[menu.main]]
+        pageref = "/posts/hello-world"
+        name = "关于"
+        weight = 5
+        pre = "internal"
+        post = "user-circle"
+    [[menu.main]]
+        weight = 6
+        identifier = "theme-switcher"
+    [[menu.main]]
+        weight = 7
+        identifier = "lang-switcher"
+
+[params]
+    enableHeader = true
+    enableHeaderAutoHide = false
+    displayHeaderInHome = true
+    headerBackground = "linear-gradient(90deg, #f795331a 0, #f370551a 15%, #ef4e7b1a 30%, #a166ab1a 44%, #5073b81a 58%, #1098ad1a 72%, #07b39b1a 86%, #6dba821a 100%)"
+    headerLayout = "flex"
+    enableNavToggle = true
+    navHeight = "10em"
+
+    siteBrandSVG = false
+    siteBrandSVGWidth = 250
+    siteBrandSVGHeight = 100
+    siteBrandSVGFill = "#fff"
+    siteBrandFontSize = 1
+    siteBrandFontColor = "var(--color-contrast-high)"
+
+    enableMenu = true
+    displayMenuInHome = true
+    activeInSection = false
+
+    homeLayout = "poetry"
+    homePoetry = ['[**<font size = "+8">Hello, World!</font>**](/posts/hello-world/)']
+    homeLinksPadding = 1
+
+    siteLogo = "/static/favicon.ico"
+    siteDescription = "尤桑记：雨伞CKY的博客"
+    siteCreatedTime = "2022-10-16T15:20:00+00:00"
+    siteTwitter = ""
+
+    categoryBy = "categories"
+
+    enableTree = false
+    displayPosts = true
+    displayPostsCount = true
+    limitPostsLimit = 10
+
+    enableTagCloud = false
+    fontUnit = "em"
+    largestFontSize = 2.5
+    smallestFontSize = 1
+
+    listWidth = 42
+    displayListTitle = true
+    listDateFormat = "2006.1.2"
+    listDatePosition = "right"
+    groupByMonth = false
+    chineseZodiac = true
+    i18nYear = true
+    i18nMonth = true
+
+    displayTaxonomyTermCount = true
+    limitEntriesLimit = 10
+
+    includeContent = false
+
+    enableDarkMode = true
+    defaultTheme = "light"
+    hideThemeToggle = false
+    hideThemeToggleInHome = false
+    overrideSystemPreferences = false
+
+    themeColor = "#fff"
+    themeColorDark = "#16171d"
+    safariMaskColor = "#2a6df4"
+    msApplicationTileColor = "#fff"
+
+    jsonLD = true
+    openGraph = true
+    twitterCards = false
+    autoDetectImages = true
+
+    enableServiceWorker = false
+
+    enableKaTeX = true
+    enableMathJax = false
+    disableMathJaxMenu = false
+
+    enableMermaid = true
+    mermaidTheme = 'default'
+    mermaidThemeDark = 'light'
+
+    enableComments = false
+    autoLoadComments = true
+    enableDisqus = false
+    disqusShortname = ""
+    enableValine = false
+    valineAppId = ""
+    valineAppKey = ""
+    valinePlaceholder = "Just go go"
+    valinePath = ""
+    valineAvatar = "mm"
+    valineMeta = ["nick", "mail", "link"]
+    valinePageSize = 10
+    valineLang = "zh-cn"
+    valineVisitor = false
+    valineHighlight = true
+    valineAvatarForce = false
+    valineRecordIP = false
+    valineServerURLs = ""
+    valineEmojiCDN = ""
+    valineEmojiMaps = {}
+    valineEnableQQ = false
+    valineRequiredFields = []
+    enableUtterances = false
+    utterancesRepo = ""
+    utterancesIssueTerm = "pathname"
+    utterancesTheme = "github-light"
+    utterancesThemeDark = "photon-dark"
+    utterancesLabel = ""
+    enableGitalk = false
+    gitalkClientID = "your_client_id"
+    gitalkClientSecret = "your_client_secret"
+    gitalkRepo = "your_repository"
+    gitalkOwner = "your_gitalk_owner"
+    gitalkAdmin = ["your_gitalk_admin"]
+    gitalkLable = ["Gitalk"]
+    gitalkDistractionFreeMode = false
+    gitalkPerPage = 10
+    gitalkLanguage = "en"
+    gitalkPagerDirection = "last"
+    gitalkCreateIssueManually = false
+    gitalkProxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
+    gitalkEnableHotKey = true
+
+    enableGoogleAnalytics = false
+    trackingCodeType = "gtag"
+    trackingID = ""
+
+    googleSiteVerification = ""
+
+    googleAdClient = ""
+    enableGoogleAutoAds = false
+    enableGoogleAdUnits = false
+    googleAdSlot = ""
+
+    yandexMetrikaId = ""
+
+    duration = 0.5
+    primaryColorLight = "220, 90%, 56%"
+    primaryColorDark = "101, 65%, 62%"
+
+    postWidth = 42
+    original = true
+    displayPostDescription = true
+
+    enablePostMeta = true
+    enablePostMetaInHome = false
+
+    postMetaDateFormat = "2006.1.2"
+    displayPublishedDate = true
+    publishedDateIcon = "calendar-alt"
+    displayModifiedDate = false
+    modifiedDateIcon = "calendar-check"
+    displayExpiredDate = true
+    expiredDateIcon = "calendar-times"
+    displayCategory = true
+    categoryIcon = "folder"
+    categoryDelimiter = "/"
+    displayWordCount = true
+    wordCountIcon = "pencil-alt"
+    displayReadingTime = false
+    readingTimeIcon = "clock"
+    displayBusuanziPagePV = false
+    busuanziPagePVIcon = "eye"
+
+    hrefTargetBlank = true
+
+    enableTOC = true
+    displayTOCTitle = true
+    displayTOCNum = true
+    linkHeadingsToTOC = true
+
+    enableHeadingsAnchor = true
+    headingsOpt = "1-6"
+    anchorSymbol = "#"
+    anchorIcon = ""
+
+    enableAnchorLink = true
+    enableAnchorAutoHide = true
+
+    enableCaption = true
+    captionPrefix = "◎ "
+
+    enableImageHost = false
+    imageHostURL = "https://example.com/"
+    headAlso = false
+
+    enableVideoHost = false
+    videoHostURL = "https://example.com/"
+
+    squareBrackets = true
+    footnoteReturnLinkIcon = "angle-up"
+    insertHrBySelf = false
+
+    customizeScrollbar = true
+
+    fontFamilySiteBrand = "'Noto Serif SC', serif"
+    fontFamilyMenu = "'Noto Serif SC', serif"
+    fontFamilyTitle = "'Noto Serif SC', serif"
+    fontFamilyHeadings = "'Noto Serif SC', serif"
+    fontFamilyCode = "'Inconsolata', 'Noto Serif SC', serif"
+    fontFamilyQuote = "'Noto Serif SC', serif"
+    fontFamilyTOC = "'Noto Serif SC', serif"
+    fontFamilyCaption = "'Noto Serif SC', serif"
+    fontFamilyFooter = "'Noto Serif SC', serif"
+    fontFamilyBody = "'Noto Serif SC', serif"
+    fontsLink = "https://fonts.googleapis.com/css?family=Inconsolata:400;700%7CNoto+Serif+SC:300;400;500&display=swap"
+
+    fontSize = 20
+    tabSize = 4
+    lineHeight = 2
+    enableParagraphIndent = false
+    indentFirstParagraph = true
+    paragraphStyle = "indent"
+    enableJustify = false
+    enableDropCap = true
+    enableDropCapAfterHr = false
+    deleteHrBeforeDropCap = false
+    enableSmallCaps = false
+    enableEmphasisPoint = true
+    enableChinesePunctuationGlyphCorrection = false
+
+    enablePostCopyright = true
+    displayPostCopyright = false
+    enablePostUpdatedBadge = false
+    displayUpdatedBadge = false
+    enableBadgeTitle = false
+    badgeTitlePrefix = ""
+
+    enablePostGitInfo = false
+    displayPostGitInfo = false
+    repoURL = "https://github.com/yusancky/yusancky.github.io"
+    repoEditURL = "https://github.dev/yusancky/yusancky.github.io"
+    gitIcon = "code-branch"
+    displayCommitHash = false
+    displayCommitMessage = false
+    msgIcon = "info"
+    displayFeedback = false
+    feedbackIcon = "question"
+    feedbackText = "Feedback"
+    displayEditLink = false
+    editIcon = "edit"
+    editText = "Edit"
+
+    enablePostShare = true
+    displayPostShare = true
+    displayShareOnText = false
+    shareOnTwitter = true
+    shareOnFacebook = true
+    shareOnLinkedIn = true
+    shareOnTelegram = true
+    shareOnWeibo = true
+    shareOnDouban = false
+    shareOnQQ = true
+    shareOnQzone = true
+    shareViaQRCode = true
+
+    enableRelatedPosts = true
+    displayRelatedPosts = true
+    relatedPostsNumber = 3
+    relatedPostsIcon = "plus-circle"
+
+    enablePostTags = true
+    postTagsIcon = "tag"
+
+    enablePostNav = true
+    postNavInSection = true
+
+    enableMinimalFooter = false
+    enableVerticalBarStructure = false
+    enableAboutPageMinimalFooter = false
+
+    enableBackToTop = true
+    enableBackToTopAutoHide = true
+    displayBackToTopInHome = true
+    displayBackToTopOnMobile = true
+    backToTopIcon = "arrow-up"
+
+    enableFooter = true
+    displayFooter = true
+    displayFooterInHome = true
+    displayCopyleftSymbol = false
+    displayCopyrightSymbol = true
+    displaySiteCreatedYear = true
+    iconBetweenYearAndAuthor = "heart"
+    iconColor = "#e65a4c"
+    iconAnimation = false
+    displayPoweredBy = true
+    displaySiteCopyright = true
+    customFooter = ""
+    displayBusuanziSiteUVAndPV = false
+    busuanziSiteUVText = "本站访客数"
+    busuanziSiteUVIcon = "user"
+    busuanziSitePVText = "本站访问量"
+    busuanziSitePVIcon = "eye"
+    enableSocials = true
+
+    enableLangToggle = false
+    hideLangToggleInHome = true
+    autoHideLangToggle = true
+
+    enableHighlight = true
+    enableOverflowY = true
+    maxHeight = 20
+    enableCopy = true
+    enableCopyAutoHide = true
+
+    enableFingerprint = true
+    enableSRI = false
+    enableForceHTTPS = false
+
+    enableSmoothScroll = true
+    enableMediumZoom = true
+
+    enableInstantPage = true
+
+    enableLunrSearch = false
+    enableAlgoliaSearch = false
+    algoliaAppId = ""
+    algoliaApiKey = ""
+    algoliaIndexName = ""
+
+    fofPoster = ""
+    fofVideoWebm = ""
+    fofVideoMp4 = ""
+
+    [params.lib]
+        host = "https://cdn.jsdelivr.net"
+    [params.lib.path]
+        clipboard = "/npm/clipboard-polyfill@2.8.6/dist/clipboard-polyfill.min.js"
+        instantsearch = "/npm/instantsearch.js@2/dist/instantsearch.min.js"
+        gitalk = "/npm/gitalk@1/dist/gitalk.min.js"
+        gitalk_css = "/npm/gitalk@1/dist/gitalk.css"
+        instantpage = "/npm/instant.page@5.1.0/instantpage.min.js"
+        katex = "/npm/katex@0.13.0/dist/katex.min.js"
+        katex_css = "/npm/katex@0.13.0/dist/katex.min.css"
+        katex_mhchem = "/npm/katex@0.13.0/dist/contrib/mhchem.min.js"
+        katex_auto_render = "/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+        lunr = "/npm/lunr@2.3.9/lunr.min.js"
+        lunr_tinyseg = "/npm/lunr-languages@1.4.0/tinyseg.js"
+        lunr_stemmer = "/npm/lunr-languages@1.4.0/min/lunr.stemmer.support.min.js"
+        lunr_lang = "/npm/lunr-languages@1.4.0/min/lunr.de.min.js"
+        mathjax = "/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"
+        medium_zoom = "/npm/medium-zoom@latest/dist/medium-zoom.min.js"
+        mermaid = "/npm/mermaid@8.8.3/dist/mermaid.min.js"
+        qrcode = "/npm/qrcode-generator@1.4.4/qrcode.min.js"
+        valine = "/npm/valine@1.4.14/dist/Valine.min.js"
+        busuanzi = "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+        utterances = "https://utteranc.es/client.js"
