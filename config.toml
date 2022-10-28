@@ -6,7 +6,7 @@ copyright = "除特殊说明外，[尤桑记](https://yusancky.github.io/)的所
 
 theme = "meme"
 
-newContentEditor = "Visual Studio Code"
+newContentEditor = "MarkText"
 
 defaultContentLanguage = "zh-cn"
 defaultContentLanguageInSubdir = false
