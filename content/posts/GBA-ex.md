@@ -5,11 +5,9 @@ draft: false
 dropCap: false
 summary: 大湾区十一城数万平方千米，你曾否踏过？
 tags: ['制霸']
-title: "大湾区制霸来啦！"
+title: "大湾区制霸：粤港澳大湾区制霸标记生成器"
 toc: false
 ---
-
-# 大湾区制霸：粤港澳大湾区制霸标记生成器
 
 [![](https://yusancky.github.io/images/GBA-ex/GBA-ex.jpg)](https://gba-ex.netlify.app/)
 
@@ -36,15 +34,3 @@ toc: false
 - 游玩：旅行过
 - 出差：去过但完全未游玩
 - 路过：乘车路过或乘飞机经停
-
-## 相关作品
-
-- 中国 @itorr https://github.com/itorr/china-ex
-- 中国 吃货 @lvwzhen https://github.com/lvwzhen/foodie-ex
-- 美国、欧洲 @tenpages https://github.com/tenpages/us-level
-- 全球 @itorr https://github.com/itorr/world-ex
-- 中国 普通/简化切换 @qianphong https://github.com/qianphong/china-ex-ns
-- 中国 马拉松 @Likenttt https://github.com/Likenttt/china-city-marathon-ex
-- 福建 @action-hong https://github.com/action-hong/china-ex
-- 中国 自定义等级 @kf-liu https://github.com/kf-liu/china-ex-pro
-- 日本： https://zhung.com.tw/japanex/

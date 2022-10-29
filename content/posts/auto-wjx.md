@@ -62,7 +62,10 @@ CSDN、GitHub 等平台上已有多种多样的、完善的问卷星自动填写
 
 你可以直接使用 pip 安装第三方库 pynput 和 selenium。
 
-![](/images/auto-wjx/pip.svg)
+```powershell
+$ pip install pynput
+$ pip install selenium
+```
 
 ## 开始
 
@@ -76,7 +79,12 @@ CSDN、GitHub 等平台上已有多种多样的、完善的问卷星自动填写
 
 在浏览器中打开一个网页只需它的 URL（统一资源定位器），在 Python 中亦然。我们只需要告知 Selenium 需要使用的浏览器和 URL 即可打开网页。以 Microsoft Edge 为例，下面的代码可以打开示例问卷。
 
-![](/images/auto-wjx/start.svg)
+```python
+from selenium import webdriver
+URL = 'https://ks.wjx.top/vj/wFlPipW.aspx'
+browser = webdriver.Edge()
+browser.get(URL)
+```
 
 ### 获取问卷内容
 
@@ -94,13 +102,33 @@ CSDN、GitHub 等平台上已有多种多样的、完善的问卷星自动填写
 
 得到了选项顺序后，即可通过遍历列表的方法得出答案所在的位置。
 
-![](/images/auto-wjx/regex.svg)
+```python
+from re import findall
+findall_results = findall(r'label for="q(\d+)_(\d+)"',browser.page_source)
+
+cnt = 0
+for result in findall_results:
+  if result[0] == str(t):
+    cnt += 1
+    if result[1] == str(ans[t]):
+      choose_ans(cnt,sum[t])
+```
 
 ### 通过智能验证
 
 不幸的是，在使用这一方法时，我们会被问卷星识别。为此，我们需要提前配置浏览器。配置方法如下，不详细展开。
 
-![](/images/auto-wjx/browser_config.svg)
+```python
+from selenium import webdriver
+URL = 'https://ks.wjx.top/vj/wFlPipW.aspx'
+op = webdriver.EdgeOptions()
+op.add_experimental_option('excludeSwitches', ['enable-automation'])
+op.add_experimental_option('useAutomationExtension', False)
+global browser
+browser = webdriver.Edge(options = op)
+browser.execute_cdp_cmd('Page.addScriptToEvaluateOnNewDocument', {'source': 'Object.defineProperty(navigator, "webdriver", {get: () => undefined})'})
+browser.get(URL)
+```
 
 ## 完成
 
