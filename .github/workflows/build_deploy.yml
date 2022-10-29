@@ -45,7 +45,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL https://blog.yusancky.github.io/
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
@@ -55,7 +55,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://blog.yusancky.github.io/
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
