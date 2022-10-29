@@ -1,8 +1,8 @@
-baseURL = "https://yusancky.github.io/"
+baseURL = "https://blog.yusancky.github.io/"
 title = "尤桑记"
 languageCode = "zh-CN"
 hasCJKLanguage = true
-copyright = "除特殊说明外，[尤桑记](https://yusancky.github.io/)的所有文章著作权归@雨伞CKY 所有，受[《中华人民共和国著作权法》](http://www.npc.gov.cn/npc/c30834/202011/848e73f58d4e4c5b82f69d25d46048c6.shtml)保护，未经@雨伞CKY 许可擅自非法转载需承担相应责任。"
+copyright = "除特殊说明外，[尤桑记](https://blog.yusancky.github.io/)的所有文章著作权归@雨伞CKY 所有，受[《中华人民共和国著作权法》](http://www.npc.gov.cn/npc/c30834/202011/848e73f58d4e4c5b82f69d25d46048c6.shtml)保护，未经@雨伞CKY 许可擅自非法转载需承担相应责任。"
 
 theme = "meme"
 
@@ -184,7 +184,7 @@ uglyURLs = false
     activeInSection = false
 
     homeLayout = "poetry"
-    homePoetry = ['[**<font size = "+8">Hello, World!</font>**](/posts/hello-world/)']
+    homePoetry = ['[![](/images/GBA-ex/GBA-ex.jpg)](https://gba-ex.netlify.app/)']
     homeLinksPadding = 1
 
     siteLogo = "/static/favicon.ico"
