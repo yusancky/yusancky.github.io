@@ -5,29 +5,29 @@
     <title type="text">尤桑记</title>
     <subtitle type="html">尤桑记：雨伞CKY的博客</subtitle>
     <updated>2022-10-21T12:21:42&#43;08:00</updated>
-    <id>https://blog.yusancky.github.io/</id>
-    <link rel="alternate" type="text/html" href="https://blog.yusancky.github.io/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://blog.yusancky.github.io/atom.xml" />
+    <id>https://yusancky.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://yusancky.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://yusancky.github.io/atom.xml" />
     <author>
             <name>雨伞CKY</name>
-            <uri>https://blog.yusancky.github.io/</uri>
+            <uri>https://yusancky.github.io/</uri>
             
                 <email>umbrellacky@qq.com</email>
             </author>
-    <rights>除特殊说明外，[尤桑记](https://blog.yusancky.github.io/)的所有文章著作权归@雨伞CKY 所有，受[《中华人民共和国著作权法》](http://www.npc.gov.cn/npc/c30834/202011/848e73f58d4e4c5b82f69d25d46048c6.shtml)保护，未经@雨伞CKY 许可擅自非法转载需承担相应责任。</rights>
+    <rights>除特殊说明外，[尤桑记](https://yusancky.github.io/)的所有文章著作权归@雨伞CKY 所有，受[《中华人民共和国著作权法》](http://www.npc.gov.cn/npc/c30834/202011/848e73f58d4e4c5b82f69d25d46048c6.shtml)保护，未经@雨伞CKY 许可擅自非法转载需承担相应责任。</rights>
     <generator uri="https://gohugo.io/" version="0.104.3">Hugo</generator>
         <entry>
             <title type="text">Hello, World!</title>
-            <link rel="alternate" type="text/html" href="https://blog.yusancky.github.io/posts/hello-world/" />
-            <id>https://blog.yusancky.github.io/posts/hello-world/</id>
+            <link rel="alternate" type="text/html" href="https://yusancky.github.io/posts/hello-world/" />
+            <id>https://yusancky.github.io/posts/hello-world/</id>
             <updated>2022-10-21T12:16:53&#43;08:00</updated>
             <published>2022-10-16T15:20:00&#43;08:00</published>
             <author>
                     <name>雨伞CKY</name>
-                    <uri>https://blog.yusancky.github.io/</uri>
+                    <uri>https://yusancky.github.io/</uri>
                     <email>umbrellacky@qq.com</email>
                     </author>
-            <rights>除特殊说明外，[尤桑记](https://blog.yusancky.github.io/)的所有文章著作权归@雨伞CKY 所有，受[《中华人民共和国著作权法》](http://www.npc.gov.cn/npc/c30834/202011/848e73f58d4e4c5b82f69d25d46048c6.shtml)保护，未经@雨伞CKY 许可擅自非法转载需承担相应责任。</rights><summary type="html">2022年10月16日，尤桑记开始和世界招手。</summary>
+            <rights>除特殊说明外，[尤桑记](https://yusancky.github.io/)的所有文章著作权归@雨伞CKY 所有，受[《中华人民共和国著作权法》](http://www.npc.gov.cn/npc/c30834/202011/848e73f58d4e4c5b82f69d25d46048c6.shtml)保护，未经@雨伞CKY 许可擅自非法转载需承担相应责任。</rights><summary type="html">2022年10月16日，尤桑记开始和世界招手。</summary>
             
             
             
@@ -39,7 +39,7 @@
                             
                             
                             
-                                <category scheme="https://blog.yusancky.github.io/categories/%E7%AB%99%E5%8A%A1/" term="站务" label="站务" />
+                                <category scheme="https://yusancky.github.io/categories/%E7%AB%99%E5%8A%A1/" term="站务" label="站务" />
                             
                         
                     
@@ -49,13 +49,13 @@
                             
                             
                             
-                                <category scheme="https://blog.yusancky.github.io/tags/%E5%BC%80%E5%A7%8B/" term="开始" label="开始" />
+                                <category scheme="https://yusancky.github.io/tags/%E5%BC%80%E5%A7%8B/" term="开始" label="开始" />
                             
                         
                             
                             
                             
-                                <category scheme="https://blog.yusancky.github.io/tags/%E5%B0%A4%E6%A1%91%E8%AE%B0/" term="尤桑记" label="尤桑记" />
+                                <category scheme="https://yusancky.github.io/tags/%E5%B0%A4%E6%A1%91%E8%AE%B0/" term="尤桑记" label="尤桑记" />
                             
                         
                     

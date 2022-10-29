@@ -9,7 +9,7 @@ title: "大湾区制霸：粤港澳大湾区制霸标记生成器"
 toc: false
 ---
 
-[![](/images/GBA-ex/GBA-ex.jpg)](https://gba-ex.netlify.app/)
+[![](https://yusancky.github.io/images/GBA-ex/GBA-ex.jpg)](https://gba-ex.netlify.app/)
 
 ## 简介
 
