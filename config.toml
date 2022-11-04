@@ -244,7 +244,7 @@ uglyURLs = false
     mermaidTheme = 'default'
     mermaidThemeDark = 'light'
 
-    enableComments = false
+    enableComments = true
     autoLoadComments = true
     enableDisqus = false
     disqusShortname = ""
