@@ -151,7 +151,7 @@ uglyURLs = false
         pre = "internal"
         post = "tags"
     [[menu.main]]
-        pageref = "/posts/hello-world"
+        pageref = "/about"
         name = "关于"
         weight = 5
         pre = "internal"
