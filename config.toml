@@ -184,7 +184,7 @@ uglyURLs = false
     activeInSection = false
 
     homeLayout = "poetry"
-    homePoetry = ['踮起脚尖轻俏','微风也凑热闹','再擦过发梢','停留在下一秒','[<font size = "-2">《晨曦》</font>](https://www.kugou.com/mixsong/7ay5pr6f.html)']
+    homePoetry = ['踮起脚尖轻俏','微风也凑热闹','再擦过发梢','停留在下一秒','[<font size = "-1">《晨曦》</font>](https://www.kugou.com/mixsong/7ay5pr6f.html)']
     homeLinksPadding = 1
 
     siteLogo = "/static/favicon.ico"
