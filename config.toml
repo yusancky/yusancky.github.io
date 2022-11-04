@@ -184,7 +184,7 @@ uglyURLs = false
     activeInSection = false
 
     homeLayout = "poetry"
-    homePoetry = ['[**<font size = "+8">Hello, World!</font>**](/posts/hello-world/)']
+    homePoetry = ['踮起脚尖轻俏','微风也凑热闹','再擦过发梢','停留在下一秒','','《晨曦》（洛天依）']
     homeLinksPadding = 1
 
     siteLogo = "/static/favicon.ico"
