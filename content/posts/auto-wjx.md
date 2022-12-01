@@ -21,13 +21,13 @@ CSDN、GitHub 等平台上已有多种多样的、完善的问卷星自动填写
 
 而笔者为了快速方便完成要求的问卷星填写工作，笔者决定开始开发自动填写程序。笔者最早开发出的 wjx solver V1 从此诞生。这一版本的构思源于一次通过键盘完成问卷的经历，通过调用第三方库 [pynput](https://pypi.org/project/pynput/) 控制键盘完成。
 
-![V1 流程图](/images/auto-wjx/wjx-solver_V1_flowchart.svg)
+![V1 流程图](/assets/auto-wjx/wjx-solver_V1_flowchart.svg)
 
 经实践，这一版本的程序能在几乎瞬间内提交一份有数十题的问卷（无智能验证码、不考虑程序运行前的损耗时间）。
 
 但是，「选项顺序随机」功能打破了此前的美好幻想。
 
-![「选项顺序随机」功能](/images/auto-wjx/choose_random.png)
+![「选项顺序随机」功能](/assets/auto-wjx/choose_random.png)
 
 我们应该怎么解决问题？
 
@@ -73,7 +73,7 @@ $ pip install selenium
 
 请创建一个简单的问卷，以进行将来的测试。以下是我创建的示例问卷。
 
-![](/images/auto-wjx/task_example.png)
+![](/assets/auto-wjx/task_example.png)
 
 ### 用 Python 打开问卷
 
