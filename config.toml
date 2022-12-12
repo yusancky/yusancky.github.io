@@ -1,4 +1,4 @@
-baseURL = "https://yusancky.github.io/"
+baseURL = "/"
 title = "尤桑记"
 languageCode = "zh-CN"
 hasCJKLanguage = true
