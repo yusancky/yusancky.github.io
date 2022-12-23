@@ -1,0 +1,7 @@
+[context.production.environment]
+  HUGO_VERSION = "0.104.3"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
