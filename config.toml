@@ -512,3 +512,7 @@ uglyURLs = false
         valine = "/npm/valine@1.4.14/dist/Valine.min.js"
         busuanzi = "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
         utterances = "https://utteranc.es/client.js"
+
+[module]
+    [[module.imports]]
+        path = "github.com/divinerites/plausible-hugo"
