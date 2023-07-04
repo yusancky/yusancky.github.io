@@ -1,6 +1,6 @@
 baseURL = "https://yusancky.github.io/"
 title = "尤桑记"
-languageCode = "zh-CN"
+languageCode = "zh-Hans-CN"
 hasCJKLanguage = true
 copyright = "除特殊说明外，[尤桑记](https://yusancky.github.io/)的所有文章著作权归@雨伞CKY 所有，受[《中华人民共和国著作权法》](http://www.npc.gov.cn/npc/c30834/202011/848e73f58d4e4c5b82f69d25d46048c6.shtml)保护，未经@雨伞CKY 许可擅自非法转载需承担相应责任。"
 
@@ -8,7 +8,7 @@ theme = "meme"
 
 newContentEditor = "VS Code"
 
-defaultContentLanguage = "zh-cn"
+defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 
 pluralizeListTitles = false
@@ -75,7 +75,7 @@ uglyURLs = false
 
 [author]
     name = "雨伞CKY"
-    email = "umbrellacky@qq.com"
+    email = "yusancky@hotmail.com"
     motto = "天行健，君子以自强不息。"
     avatar = "https://avatars.githubusercontent.com/u/83524927?v=4"
 
@@ -127,40 +127,34 @@ uglyURLs = false
 
 [menu]
     [[menu.main]]
-        pageref = "/"
-        name = "首页"
-        weight = 1
-        pre = "internal"
-        post = "home"
-    [[menu.main]]
         pageref = "/posts/"
         name = "文章"
-        weight = 2
+        weight = 1
         pre = "internal"
         post = "archive"
     [[menu.main]]
         pageref = "/categories/"
         name = "分类"
-        weight = 3
+        weight = 2
         pre = "internal"
         post = "th"
     [[menu.main]]
         pageref = "/tags/"
         name = "标签"
-        weight = 4
+        weight = 3
         pre = "internal"
         post = "tags"
     [[menu.main]]
         pageref = "/about"
         name = "关于"
-        weight = 5
+        weight = 4
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
-        weight = 6
+        weight = 5
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 7
+        weight = 6
         identifier = "lang-switcher"
 
 [params]
@@ -184,7 +178,7 @@ uglyURLs = false
     activeInSection = false
 
     homeLayout = "poetry"
-    homePoetry = ['踮起脚尖轻俏','微风也凑热闹','再擦过发梢','停留在下一秒','[<font size = "-1">《晨曦》</font>](https://www.kugou.com/mixsong/7ay5pr6f.html)']
+    homePoetry = ['踮起脚尖轻俏','微风也凑热闹','再擦过发梢','停留在下一秒','[《晨曦》](https://www.kugou.com/mixsong/7ay5pr6f.html)']
     homeLinksPadding = 1
 
     siteLogo = "/static/favicon.ico"
@@ -460,9 +454,9 @@ uglyURLs = false
     busuanziSitePVIcon = "eye"
     enableSocials = true
 
-    enableLangToggle = false
-    hideLangToggleInHome = true
-    autoHideLangToggle = true
+    enableLangToggle = true
+    hideLangToggleInHome = false
+    autoHideLangToggle = false
 
     enableHighlight = true
     enableOverflowY = true
@@ -512,3 +506,31 @@ uglyURLs = false
         valine = "/npm/valine@1.4.14/dist/Valine.min.js"
         busuanzi = "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
         utterances = "https://utteranc.es/client.js"
+
+[languages.zh]
+    languageName = "🇨🇳"
+    contentDir = "content/zh"
+    weight = 1
+
+[languages.en]
+    languageName = "🇬🇧"
+    contentDir = "content/en"
+    weight = 2
+    languageCode = "en"
+    hasCJKLanguage = false
+    copyright = "All articles in [Yusancky's Note](https://yusancky.github.io/) are copyrighted by @yusancky unless otherwise stated, and are protected by the [Copyright Law of the People's Republic of China](http://www.npc.gov.cn/npc/c30834/202011/848e73f58d4e4c5b82f69d25d46048c6.shtml). Unauthorised and illegal reproduction without the permission of @yusancky is subject to liability in accordance with the law."
+
+[languages.en.params]
+    homePoetry = ['Raising tiptoes, light and graceful','Even the gentle breeze joins in the fun','Brushing past the tips of the hair','Pausing for the next moment','[_Glow in the Morning_](https://www.kugou.com/mixsong/7ay5pr6f.html)']
+    siteDescription = "Yusancky's Notes & Blogs"
+    fontFamilySiteBrand = "'Merriweather', serif"
+    fontFamilyMenu = "'Merriweather', serif"
+    fontFamilyTitle = "'Merriweather', serif"
+    fontFamilyHeadings = "'Merriweather', serif"
+    fontFamilyCode = "'Inconsolata', 'Merriweather', serif"
+    fontFamilyQuote = "'Merriweather', serif"
+    fontFamilyTOC = "'Merriweather', serif"
+    fontFamilyCaption = "'Merriweather', serif"
+    fontFamilyFooter = "'Merriweather', serif"
+    fontFamilyBody = "'Merriweather', serif"
+    fontsLink = "https://fonts.googleapis.com/css?family=Inconsolata:400;700%7CMerriweather:300;400;500&display=swap"
