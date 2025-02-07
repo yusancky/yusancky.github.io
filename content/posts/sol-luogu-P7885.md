@@ -1,15 +1,11 @@
 ---
-categories: ['题解']
+categories: ['OI']
 date: 2021-10-01T23:34:03+08:00
 draft: false
 dropCap: false
-tags: ['洛谷主题库','洛谷博客']
+tags: ['洛谷']
 title: "洛谷 P7885 「MCOI-06」Flight - 题解"
 ---
-
-# 说明
-
-本文迁移自[雨伞CKY的洛谷博客](https://yusancky.blog.luogu.org/)。本文中的文字采用[知识共享署名-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)进行许可。
 
 # 题意简述
 

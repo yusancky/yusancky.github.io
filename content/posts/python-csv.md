@@ -3,20 +3,16 @@ categories: ['技术']
 date: 2021-08-18T13:50:23+08:00
 draft: false
 dropCap: false
-summary: 快试试用 Python 的 csv 库读写表格。
-tags: ['Python','洛谷博客']
+summary: 使用 Python 官方库 csv 库读写表格的基础方法笔记。
+tags: ['Python','笔记']
 title: "用 Python 轻松读写表格"
 ---
 
-# 说明
-
-本文迁移自[雨伞CKY的洛谷博客](https://yusancky.blog.luogu.org/)。本文中的文字采用[知识共享署名-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)进行许可。
-
 # 关于 CSV
 
-CSV，即逗号分隔的值（Comma-Separated Values），是一种以纯文本形式存储、以 `,` 分隔内容的文件格式。你可以直接使用 Excel、Numbers 表格等软件，把表格导出为 CSV 文件。当然，你也可以使用上述软件，把 CSV 文件导出为表格格式文件。
+CSV 即逗号分隔的值（Comma-Separated Values），是一种以纯文本形式存储、以 `,` 分隔内容的表格文件格式。你可以直接使用 WPS Office、Microsoft 365、Numbers 表格等软件把表格导出为 CSV 文件。当然，你也可以使用上述软件，把 CSV 文件转换为对应表格格式文件。
 
-Python 中的 csv 库实现了 CSV 格式表单数据的读写。csv 库是 Python 标准库中，无需安装即可导入使用。
+Python 的标准库 `csv` 实现了 CSV 数据的读写，无需另外安装即可导入使用。
 
 # 读取 CSV 文件
 

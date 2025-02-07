@@ -1,15 +1,11 @@
 ---
-categories: ['题解']
+categories: ['OI']
 date: 2021-12-12T13:57:02+08:00
 draft: false
 dropCap: false
-tags: ['UVa OJ','洛谷博客']
+tags: ['UVa OJ']
 title: "UVa OJ 10341 Solve It - 题解"
 ---
-
-# 说明
-
-本文迁移自[雨伞CKY的洛谷博客](https://yusancky.blog.luogu.org/)。本文中的文字采用[知识共享署名-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)进行许可，图片不具有版权，属于[公有领域](https://zh.wikipedia.org/wiki/%E5%85%AC%E6%9C%89%E9%A2%86%E5%9F%9F)。
 
 # 题目描述
 
